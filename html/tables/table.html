@@ -5,7 +5,33 @@
     <title>cars</title>
     <meta http-equiv="Content-Security-Policy"
         content="default-src 'self'; style-src 'self' http: https: 'unsafe-inline'; script-src 'self' http: https: 'unsafe-inline';">
+        <style>
+            .styled-table {
+              width: 100%;
+              border: 1px solid black;
+              border-radius: 10px;
+             
+            }
+            .styled-table th,
+            .styled-table td {
+              padding: 8px;
+              text-align: center;
+              border: 1px solid black;
+              border-radius: 10px;
+            }
 
+            .styled-table_2 {
+              width: 100%;
+            }
+            .styled-table_2 th,
+            .styled-table_2 td {
+              padding: 8px;
+              text-align: center;
+              border: 1px solid black;
+              border-radius: 10px;
+            }
+
+          </style>
 </head>
 
 <body>
@@ -178,6 +204,91 @@
             <td>2200</td>
         </tr>
     </table>
+
+    <h2></h2>
+
+<p>Table With Rounded Borders</p>
+
+<table class="styled-table">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<p>Skip the border around the table by leaving out table from the css selector:</p>
+<table class="styled-table_2">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th> 
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+<p>table boder style</p>
+<table>
+    <tr>
+      <td style="border: 3px dotted black; padding: 10px;">dotted</td>
+    </tr>
+    <tr>
+      <td style="border: 3px dashed black; padding: 10px;">dashed</td>
+    </tr>
+    <tr>
+      <td style="border: 3px solid black; padding: 10px;">solid</td>
+    </tr>
+    <tr>
+      <td style="border: 3px double black; padding: 10px;">double</td>
+    </tr>
+    <tr>
+      <td style="border: 3px groove black; padding: 10px;">groove</td>
+    </tr>
+    <tr>
+      <td style="border: 3px ridge black; padding: 10px;">ridge</td>
+    </tr>
+    <tr>
+      <td style="border: 3px inset black; padding: 10px;">inset</td>
+    </tr>
+    <tr>
+      <td style="border: 3px outset black; padding: 10px;">outset</td>
+    </tr>
+    <tr>
+      <td style="border: 3px none black; padding: 10px;">none</td>
+    </tr>
+    <tr>
+      <td style="border: 3px hidden black; padding: 10px;">hidden</td>
+    </tr>
+  </table>
 </body>
 
 </html>

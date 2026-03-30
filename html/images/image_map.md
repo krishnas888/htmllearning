@@ -26,12 +26,17 @@ You must define the shape of the clickable area, and you can choose one of these
 
 You must also define some coordinates to be able to place the clickable area onto the image. 
 
-```Shape="rect"
+Shape="rect"
 The coordinates for shape="rect" come in pairs, one for the x-axis and one for the y-axis.
 
-So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top
-![workspace top](assets\workplace1.jpg)
+So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
+
+![workspace top](assets/workplace1.jpg)
+
 The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top:
-![workspace left](assets\workplace1.jpg)
+
+![workspace left](assets/workplace1.jpg)
+
+
 
 
